@@ -1,0 +1,3 @@
+let texto = "Aprender JavaScript";
+let vogais = texto.match(/[aeiou]/gi).length;
+console.log("Número de vogais:", vogais);

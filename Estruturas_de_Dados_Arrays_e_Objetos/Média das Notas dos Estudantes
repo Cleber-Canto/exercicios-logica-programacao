@@ -1,0 +1,2 @@
+let media = estudantes.reduce((acc, estudante) => acc + estudante.nota, 0) / estudantes.length;
+console.log("Média das notas:", media);

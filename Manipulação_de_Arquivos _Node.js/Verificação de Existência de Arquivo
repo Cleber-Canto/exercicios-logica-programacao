@@ -1,0 +1,5 @@
+const fs = require('fs');
+
+fs.access('arquivo.txt', fs.constants.F_OK, (err) => {
+  console.log(err ? 'Arquivo não existe' : 'Arquivo existe');
+});

@@ -1,0 +1,5 @@
+function maiusculas(arr) {
+  return arr.map(str => str.toUpperCase());
+}
+let frutas = ["maçã", "banana", "laranja"];
+console.log(maiusculas(frutas));

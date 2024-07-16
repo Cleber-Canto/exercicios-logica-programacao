@@ -1,0 +1,9 @@
+const fs = require('fs');
+
+fs.stat('arquivo.txt', (err, stats) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log(`Tamanho do arquivo: ${stats.size} bytes`);
+});

@@ -1,0 +1,4 @@
+let numero = 9;
+let quadrado = numero * numero;
+let raizQuadrada = Math.sqrt(numero);
+console.log("Quadrado:", quadrado, "Raiz quadrada:", raizQuadrada);

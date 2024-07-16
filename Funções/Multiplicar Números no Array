@@ -1,0 +1,5 @@
+function multiplicarPorDois(arr) {
+  return arr.map(num => num * 2);
+}
+let numeros = [1, 2, 3, 4, 5];
+console.log(multiplicarPorDois(numeros));

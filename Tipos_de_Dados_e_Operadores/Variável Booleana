@@ -1,0 +1,6 @@
+let ativo = true;
+if (ativo) {
+  console.log("A variável está ativa.");
+} else {
+  console.log("A variável está inativa.");
+}

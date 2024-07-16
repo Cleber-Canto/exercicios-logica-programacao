@@ -1,0 +1,4 @@
+let carro = { marca: "Toyota", modelo: "Corolla" };
+carro.ano = 2020;
+delete carro.modelo;
+console.log(carro);

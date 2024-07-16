@@ -1,0 +1,6 @@
+let nome = "João";
+let idade = 30;
+let estudante = true;
+let frutas = ["maçã", "banana", "laranja"];
+let pessoa = { nome: "Maria", idade: 25, profissão: "Engenheira" };
+console.log(nome, idade, estudante, frutas, pessoa);

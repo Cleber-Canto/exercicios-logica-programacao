@@ -1,0 +1,5 @@
+function maiorNumero(arr) {
+  return Math.max(...arr);
+}
+let numeros = [1, 2, 3, 4, 5];
+console.log(maiorNumero(numeros));

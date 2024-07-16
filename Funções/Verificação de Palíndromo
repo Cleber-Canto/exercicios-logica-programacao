@@ -1,0 +1,5 @@
+function ehPalindromo(texto) {
+  let textoReverso = texto.split('').reverse().join('');
+  return texto === textoReverso;
+}
+console.log(ehPalindromo("arara"));

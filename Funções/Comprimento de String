@@ -1,0 +1,4 @@
+function comprimentoString(texto) {
+  return texto.length;
+}
+console.log(comprimentoString("JavaScript"));

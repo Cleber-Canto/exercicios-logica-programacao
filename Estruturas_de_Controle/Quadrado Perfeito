@@ -1,0 +1,3 @@
+let numero = 16;
+let isQuadradoPerfeito = Number.isInteger(Math.sqrt(numero));
+console.log("O número é um quadrado perfeito?", isQuadradoPerfeito);

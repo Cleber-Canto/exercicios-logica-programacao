@@ -1,0 +1,19 @@
+const fs = require('fs');
+const os = require('os');
+const path = require('path');
+
+const tmpFilePath = path.join(os.tmpdir(), 'tempfile.txt');
+fs.writeFile(tmpFilePath, 'Conteúdo temporário', (err) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log('Arquivo temporário criado com sucesso!');
+  fs.unlink(tmpFilePath, (err) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    console.log('Arquivo temporário excluído com sucesso!');
+  });
+});

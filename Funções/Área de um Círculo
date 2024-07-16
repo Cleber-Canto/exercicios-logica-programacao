@@ -1,0 +1,4 @@
+function areaCirculo(raio) {
+  return Math.PI * Math.pow(raio, 2);
+}
+console.log(areaCirculo(5));

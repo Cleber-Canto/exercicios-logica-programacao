@@ -1,0 +1,7 @@
+let estudantes = [
+  { nome: "Ana", nota: 6 },
+  { nome: "Bruno", nota: 8 },
+  { nome: "Carla", nota: 7 },
+  { nome: "Daniel", nota: 5 }
+];
+console.log(estudantes);

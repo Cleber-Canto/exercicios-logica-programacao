@@ -1,0 +1,9 @@
+let numerosObj = [
+  { valor: 10 },
+  { valor: 20 },
+  { valor: 30 }
+];
+function maiorNumeroObj(arr) {
+  return Math.max(...arr.map(obj => obj.valor));
+}
+console.log("Maior número:", maiorNumeroObj(numerosObj));

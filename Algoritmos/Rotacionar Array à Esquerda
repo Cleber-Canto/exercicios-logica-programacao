@@ -1,0 +1,5 @@
+function rotacionarEsquerda(arr, k) {
+  return arr.slice(k).concat(arr.slice(0, k));
+}
+let array = [1, 2, 3, 4, 5];
+console.log(rotacionarEsquerda(array, 2));

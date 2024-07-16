@@ -1,0 +1,5 @@
+function contarVogais(texto) {
+  let vogais = texto.match(/[aeiou]/gi);
+  return vogais ? vogais.length : 0;
+}
+console.log(contarVogais("Aprender JavaScript"));

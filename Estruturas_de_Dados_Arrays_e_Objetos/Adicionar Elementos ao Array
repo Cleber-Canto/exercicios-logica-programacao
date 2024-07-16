@@ -1,0 +1,4 @@
+let frutas = ["maçã", "banana"];
+frutas.unshift("laranja");
+frutas.push("uva");
+console.log(frutas);

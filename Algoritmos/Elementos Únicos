@@ -1,0 +1,5 @@
+function elementosUnicos(arr) {
+  return new Set(arr).size;
+}
+let array = [1, 2, 2, 3, 4, 4, 5];
+console.log(elementosUnicos(array));

@@ -1,0 +1,5 @@
+function contarOcorrencias(arr, valor) {
+  return arr.filter(item => item === valor).length;
+}
+let array = [1, 2, 3, 2, 2, 4, 5, 2];
+console.log(contarOcorrencias(array, 2));

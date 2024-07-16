@@ -1,0 +1,11 @@
+function mdc(a, b) {
+  while (b !== 0) {
+    let temp = b;
+    b = a % b;
+    a = temp;
+  }
+  return a;
+}
+let num1 = 56, num2 = 98;
+console.log("MDC:", mdc(num1, num2));
+

@@ -1,0 +1,5 @@
+const fs = require('fs');
+
+fs.access('arquivo.txt', fs.constants.R_OK | fs.constants.W_OK, (err) => {
+  console.log(err ? 'Sem permissões de leitura/escrita' : 'Com permissões de leitura/escrita');
+});

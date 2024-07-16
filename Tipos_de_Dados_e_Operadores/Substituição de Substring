@@ -1,0 +1,3 @@
+let texto = "Hello world, welcome to the world!";
+let textoModificado = texto.replace(/world/g, "JavaScript");
+console.log("Texto modificado:", textoModificado);

@@ -1,0 +1,4 @@
+function substituirSubstring(texto, antiga, nova) {
+  return texto.split(antiga).join(nova);
+}
+console.log(substituirSubstring("Hello world, welcome to the world!", "world", "JavaScript"));

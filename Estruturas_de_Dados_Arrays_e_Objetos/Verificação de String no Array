@@ -1,0 +1,3 @@
+let frutas = ["maçã", "banana", "laranja"];
+let contemBanana = frutas.includes("banana");
+console.log("Contém banana?", contemBanana);

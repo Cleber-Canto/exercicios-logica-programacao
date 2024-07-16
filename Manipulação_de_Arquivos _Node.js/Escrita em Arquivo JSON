@@ -1,0 +1,14 @@
+const fs = require('fs');
+
+const dados = {
+  nome: "João",
+  idade: 30,
+  cidade: "São Paulo"
+};
+fs.writeFile('dados.json', JSON.stringify(dados, null, 2), err => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log('Dados salvos com sucesso!');
+});

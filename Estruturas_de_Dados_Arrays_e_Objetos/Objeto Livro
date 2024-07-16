@@ -1,0 +1,2 @@
+let livro = { titulo: "1984", autor: "George Orwell", ano: 1949 };
+console.log(livro);

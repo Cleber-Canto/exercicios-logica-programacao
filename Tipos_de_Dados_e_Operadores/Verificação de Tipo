@@ -1,0 +1,3 @@
+let valor = "123";
+let isNumero = !isNaN(valor);
+console.log("É um número?", isNumero);

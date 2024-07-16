@@ -1,0 +1,4 @@
+let numero = 121;
+let numStr = numero.toString();
+let isPalindromo = numStr === numStr.split('').reverse().join('');
+console.log("O número é um palíndromo?", isPalindromo);

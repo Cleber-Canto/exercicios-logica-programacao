@@ -1,0 +1,4 @@
+function ehQuadradoPerfeito(n) {
+  return Number.isInteger(Math.sqrt(n));
+}
+console.log(ehQuadradoPerfeito(16));

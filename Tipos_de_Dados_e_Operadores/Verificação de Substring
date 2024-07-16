@@ -1,0 +1,4 @@
+let texto = "Hello, world!";
+let palavra = "world";
+let contains = texto.includes(palavra);
+console.log(contains);

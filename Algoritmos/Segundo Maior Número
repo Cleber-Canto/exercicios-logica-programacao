@@ -1,0 +1,7 @@
+function segundoMaior(arr) {
+  let maior = Math.max(...arr);
+  let semMaior = arr.filter(num => num !== maior);
+  return Math.max(...semMaior);
+}
+let array = [10, 20, 30, 40, 50];
+console.log(segundoMaior(array));

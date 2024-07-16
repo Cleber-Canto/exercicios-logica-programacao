@@ -1,0 +1,17 @@
+function quickSort(arr) {
+  if (arr.length <= 1) return arr;
+  let pivot = arr[arr.length - 1];
+  let esquerda = [];
+  let direita = [];
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i] < pivot) {
+      esquerda.push(arr[i]);
+    } else {
+      direita.push(arr[i]);
+    }
+  }
+  return quickSort(esquerda).concat(pivot, quickSort(direita));
+}
+
+let array = [64, 34, 25, 12, 22, 11, 90];
+console.log(quickSort(array));
